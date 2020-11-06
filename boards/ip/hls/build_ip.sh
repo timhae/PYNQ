@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 for f in */script.tcl
 do
-  vivado_hls -f $f
+    vivado_hls-18.3 -f $f
 done
